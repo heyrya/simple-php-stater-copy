@@ -1,8 +1,9 @@
 <!doctype html>
 <html lang="en">
-
+ <!-- head section included from file head.php -->   
+ <?php include('includes/head.php'); ?>
 <body>
-
+    <?php include('includes/menu.php'); ?>
     <div class="container">
         <h1>MariaDB</h1>
         <p>MariaDB is a community-developed, commercially supported fork of the MySQL relational database management system (RDBMS), 

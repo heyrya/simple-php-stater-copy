@@ -1,7 +1,13 @@
+<?php
+    // var_dump($_SERVER['REQUEST_URI']);
+?>
+
 <!doctype html>
 <html lang="en">
-
+ <!-- head section included from file head.php -->   
+<?php include('includes/head.php'); ?>
 <body>
+    <?php include('includes/menu.php'); ?>
 
     <div class="container">
         <h1>PHP</h1>
